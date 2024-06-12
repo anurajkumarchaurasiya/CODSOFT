@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(img.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+#nav{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 0 80px ;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+#nav #nlink{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#nav i{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+#nlink {
+    display: flex;
+    gap: 50px;
+}
+
+#nlink a{
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+
+
+#nav h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    color: #fff;
+}
+
+#text{
+    position: absolute;
+    width: 40%;
+    top: 50%;
+    left: 10%;
+    transform: translate(0,-50%);
+    color: #fff;
+}
+
+#text h6{
+    display: flex;
+}
+
+#text h6 span{
+    font-size: 30px;
+    line-height: 25px;
+}
+
+#text h1{
+    font-size: 90px;
+    line-height: 1;
+    margin-top: 25px;
+}
+
+#lineandtext{
+    margin-top: 30px;
+    display: flex;
+    gap: 70px;
+}
+
+#line{
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+}
+
+#lineandtext p{
+    width: 50%;
+    font-size: 11px;
+    line-height: 20px;
+    margin-top: -5px;
+}
+
+#bottom{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 20%;
+    background-color: #fff;
+}
+
+#cube{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    top: -50px;
+    right: -50px;
+    color: #fff;
+    background-color: #000;
+}
+
+#bottom .sec p{
+     opacity: .5;
+     font-size: 14px;
+     font-weight: 500;
+}
